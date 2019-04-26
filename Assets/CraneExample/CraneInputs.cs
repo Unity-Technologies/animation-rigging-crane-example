@@ -25,7 +25,7 @@ public class CraneInputs : MonoBehaviour
         ikRotation.transform.rotation *= ikRot;
 
         //IK forward distance
-        float fwd = Input.GetAxis ("Vertical");
+        float fwd = Input.GetAxis ("FwdBck");
         Vector3 fwdVector = iKHandle.transform.rotation * Vector3.forward * (fwd);
         iKHandle.transform.position += fwdVector;
 
@@ -52,7 +52,7 @@ public class CraneInputs : MonoBehaviour
 
         
         // CLAMPS
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Drop"))
 		{
             clamp = !clamp;
 		}
