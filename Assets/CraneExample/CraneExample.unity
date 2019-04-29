@@ -1795,6 +1795,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 587586704}
+  - component: {fileID: 587586705}
   m_Layer: 0
   m_Name: RCLift
   m_TagString: Untagged
@@ -1816,6 +1817,19 @@ Transform:
   m_Father: {fileID: 1434062115}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
+--- !u!114 &587586705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587586703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48948dfe9d76b07488dacd46a7955fa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncFromScene: 1
 --- !u!1 &598772722
 GameObject:
   m_ObjectHideFlags: 0
@@ -5264,7 +5278,7 @@ MonoBehaviour:
     m_Tip: {fileID: 313987749}
     m_Target:
       transform: {fileID: 1632774337}
-      sync: 0
+      sync: 1
     m_Hint:
       transform: {fileID: 0}
       sync: 0
@@ -6240,7 +6254,7 @@ MonoBehaviour:
     m_Tip: {fileID: 2040327999}
     m_Target:
       transform: {fileID: 1847227130}
-      sync: 0
+      sync: 1
     m_Hint:
       transform: {fileID: 0}
       sync: 0
@@ -6600,6 +6614,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1939243344}
+  - component: {fileID: 1939243345}
   m_Layer: 0
   m_Name: LCLift
   m_TagString: Untagged
@@ -6621,6 +6636,19 @@ Transform:
   m_Father: {fileID: 1651703422}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -90}
+--- !u!114 &1939243345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939243343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48948dfe9d76b07488dacd46a7955fa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncFromScene: 1
 --- !u!1 &1968851977
 GameObject:
   m_ObjectHideFlags: 0
