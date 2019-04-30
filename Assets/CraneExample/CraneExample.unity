@@ -1460,6 +1460,7 @@ GameObject:
   - component: {fileID: 444306456}
   - component: {fileID: 444306453}
   - component: {fileID: 444306455}
+  - component: {fileID: 444306457}
   m_Layer: 0
   m_Name: MCCrane
   m_TagString: Untagged
@@ -1536,7 +1537,7 @@ MonoBehaviour:
   drawTripods: 1
   boneSize: 0.16
   tripodSize: 5
-  boneColor: {r: 1, g: 0, b: 0.20423317, a: 1}
+  boneColor: {r: 0, g: 1, b: 0.17240834, a: 1}
   m_Transforms:
   - {fileID: 1731608347}
   - {fileID: 1739463304}
@@ -1582,6 +1583,33 @@ MonoBehaviour:
   IK_LC: {fileID: 1847227130}
   RCLift: {fileID: 587586704}
   LCLift: {fileID: 1939243344}
+--- !u!114 &444306457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444306451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8418b0b9634b1892b0268dd9c2743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boneShape: 2
+  drawBones: 1
+  drawTripods: 0
+  boneSize: 0.5
+  tripodSize: 1
+  boneColor: {r: 1, g: 0, b: 0, a: 0.5}
+  m_Transforms:
+  - {fileID: 1731608347}
+  - {fileID: 195550431}
+  - {fileID: 1066543911}
+  - {fileID: 1698300784}
+  - {fileID: 1434062115}
+  - {fileID: 1632774337}
+  - {fileID: 1651703422}
+  - {fileID: 1847227130}
 --- !u!1 &452735901
 GameObject:
   m_ObjectHideFlags: 0
